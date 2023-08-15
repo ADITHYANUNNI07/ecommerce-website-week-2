@@ -38,7 +38,6 @@
     background-position: 50% 50%;
 }
 .main h1{
-    font-size: 4rem;
     font-weight: 700;
     color: white;
     text-align: center;
@@ -65,7 +64,7 @@
 .btn-sigin-signup
 {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 
 }
 .btn:hover{
@@ -75,4 +74,9 @@
 .btn.btn-secondary.btn-lg:hover
 {
     background-color: white;
+}
+.col-lg-7
+{
+    display: flex;
+    justify-content: center;
 }
