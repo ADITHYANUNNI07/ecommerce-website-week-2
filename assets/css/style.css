@@ -3,6 +3,7 @@
     margin:0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 .btn-outline-success
 {
@@ -27,4 +28,51 @@
 .navbar-expand-lg .navbar-nav .nav-link
 {
     color: white;
+}
+.main
+{
+    background: url(/assets/images/cool-guy-good-mood-posing-blue-background-jumping.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background-position: 50% 50%;
+}
+.main h1{
+    font-size: 4rem;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+}
+.main
+{
+    display: flex;
+    align-items: center;
+}
+.main .container .row
+{
+    justify-content: center;
+}
+.btn{
+    color: white;
+    background-color: #FF5F00;
+}
+.btn.btn-secondary.btn-lg
+{
+    color: #FF5F00;
+    background-color: transparent;
+    border-color: #FF5F00;
+}
+.btn-sigin-signup
+{
+    display: flex;
+    justify-content: space-between;
+
+}
+.btn:hover{
+    color: #FF5F00;
+    background-color: white;
+}
+.btn.btn-secondary.btn-lg:hover
+{
+    background-color: white;
 }

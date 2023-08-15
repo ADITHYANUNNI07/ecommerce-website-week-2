@@ -1,98 +1,82 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/style.css">
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-lg fixed-top accordion">
-        <div class="container">
-          <div class="lottie-player" data-src="assets/images/logo.json" style="width: 5.9rem;"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarScroll">
-            <ul class="navbar-nav m-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-              <li class="nav-item">
-                <a class="nav-link active" class="nav-style" href="#">HOME</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" class="nav-style" href="#">SHOP</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" class="nav-style" aria-disabled="true">PRODUCTS</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" class="nav-style" href="#">PAGES</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" class="nav-style" href="#">DOCS</a>
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">Search</button>
-            </form>
-          </div>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg fixed-top accordion">
+    <div class="container">
+      <div class="lottie-player" data-src="assets/images/logo.json" style="width: 5.9rem;"></div>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+        aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarScroll">
+        <ul class="navbar-nav m-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+          <li class="nav-item">
+            <a class="nav-link active" class="nav-style" href="#">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" class="nav-style" href="#">SHOP</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" class="nav-style" aria-disabled="true">PRODUCTS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" class="nav-style" href="#">PAGES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" class="nav-style" href="#">DOCS</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <section class="main">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-7">
+          <h1>Independence Day Celebration</h1>
+            <div class="btn-sigin-signup">
+            <button type="button" class="btn btn-lg">Sign In</button>
+            <button type="button" class="btn btn-secondary btn-lg">Sign Up</button>
+            </div>
         </div>
-      </nav>
-
-
-
-      <div id="carouselExampleDark" class="carousel carousel-dark slide">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
-  <div class="carousel-inner">
-    <div class="carousel-item active " data-bs-interval="1">
-      <img src="assets/images/cool-guy-good-mood-posing-blue-background-jumping.jpg" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block caption-top">
-        <h5></h5>
-        <p>Some representative placeholder content for the first slide.</p>
       </div>
     </div>
-    <div class="carousel-item" data-bs-interval="2000">
-      <img src="assets/images/full-shot-cool-people-wearing-chain-necklace.jpg" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Second slide label</h5>
-        <p>Fashion is like eating , You shouldn't stick to the same menu.</p>
-      </div>
-    </div>
-    <div class="carousel-item">
-      <img src="assets/images/joyful-girl-with-curly-brown-hair-dancing-purple-background-with-kissing-face-expression.jpg" class="d-block w-100" alt="...">
-      <div class="carousel-caption d-none d-md-block">
-        <h5>Third slide label</h5>
-        <p>Some representative placeholder content for the third slide.</p>
-      </div>
-    </div>
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div>
-      
+  </section>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.3/lottie.min.js"></script>
-<script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.3/lottie.min.js"></script>
+  <script>
     var lottieElement = document.querySelector('.lottie-player');
     var animationData = lottie.loadAnimation({
-        container: lottieElement,
-        renderer: 'svg',
-        loop: true,
-        autoplay: true,
-        path: lottieElement.getAttribute('data-src')
+      container: lottieElement,
+      renderer: 'svg',
+      loop: true,
+      autoplay: true,
+      path: lottieElement.getAttribute('data-src')
     });
-</script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
-  </body>
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
